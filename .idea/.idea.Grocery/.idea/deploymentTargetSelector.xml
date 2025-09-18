@@ -21,7 +21,12 @@
           </targets>
         </DialogSelection>
       </SelectionState>
+
       <SelectionState runConfigName="Grocery.Core">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+
+      <SelectionState runConfigName="Grocery.Core.Data">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
