@@ -4,10 +4,28 @@
     <selectionStates>
       <SelectionState runConfigName="Grocery.App">
         <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2025-09-18T18:11:04.129117Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/aramaic/.android/avd/Medium_Phone.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection>
+          <targets>
+            <Target type="DEFAULT_BOOT">
+              <handle>
+                <DeviceId pluginId="LocalEmulator" identifier="path=/Users/aramaic/.android/avd/Medium_Phone.avd" />
+              </handle>
+            </Target>
+          </targets>
+        </DialogSelection>
       </SelectionState>
+
       <SelectionState runConfigName="Grocery.Core">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+
       <SelectionState runConfigName="Grocery.Core.Data">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
